@@ -6,6 +6,9 @@
 body{
      font-family: 'Lora', serif;
 }
+
+
+/*GENERAL CLASSES TO USE WITH FLEXBOX*/
 .flex{
      display: flex;
 }
@@ -27,9 +30,6 @@ body{
 
 
 
-.container{
-     height: 87vh;
-}
 .main-header{
      background: rgb(18,30,61);
      background: linear-gradient(180deg, rgba(18,30,61,1) 0%, rgba(33,44,58,1) 100%);
@@ -45,7 +45,7 @@ body{
 }
 .main-header > p{
      font-family: Georgia, 'Times New Roman', Times, serif;
-     font-size: 22px;
+     font-size: 20px;
      font-style: italic;
 }
 
@@ -60,9 +60,6 @@ section > header{
 section > header > h1{
      font-family: 'Muli', sans-serif;
 }
-section > header > p{
-     
-}
 
 
 .main-footer{
@@ -70,4 +67,45 @@ section > header > p{
      color: white;
      padding: 20px;
      text-align: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+     .main-header > h1{
+          font-size: 50px;
+          margin-bottom: 20px;
+     }
+     .main-header > p{
+          font-size: 18px;
+     }
+}
+
+@media screen and (max-width: 768px) {
+     .main-header > h1{
+          font-size: 45px;
+          margin-bottom: 20px;
+     }
+     .main-header > p{
+          font-size: 17px;
+     }
+}
+
+@media screen and (max-width: 600px) {
+     .main-header > h1{
+          font-size: 40px;
+          margin-bottom: 20px;
+     }
+     .main-header > p{
+          font-size: 15px;
+     }
+}
+
+@media screen and (max-width: 480px) {
+     .main-header > h1{
+          font-size: 30px;
+          margin-bottom: 15px;
+     }
+     .main-header > p{
+          font-size: 12px;
+     }
 }

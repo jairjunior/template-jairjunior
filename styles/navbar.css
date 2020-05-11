@@ -3,6 +3,7 @@
      height: 8vh;
      position: sticky;
      top: 0px;
+     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.486);
 }
 .topnavbar-container{
      width: 70%;
@@ -22,7 +23,7 @@
 .brand > h4{
      margin-left: 5px;
 }
-.desktopnav{
+.nav-container{
      width: 60%;
 }
 .navlinks > li{
@@ -56,8 +57,9 @@
 }
 
 
+
 @media screen and (max-width: 1200px) {
-     .desktopnav{
+     .nav-container{
           width: 80%;
      }
 }
@@ -69,6 +71,9 @@
      .burger-button{
           display: block;
           cursor: pointer;
+     }
+     .nav-container{
+          width: 40%;
      }
      .navlinks{
           display: flex;
@@ -82,8 +87,45 @@
           text-align: center;
           justify-content: space-around;
           transform: translateX(100%);
+          transition: transform 0.5s ease-in;
+     }
+     .navlinks li{
+          opacity: 0;
      }
      .navlink > a{
           padding: 20px 40px;
      }
+}
+
+@media screen and (max-width: 480px) {
+     .navlink > a{
+          font-size: 10px;
+     }
+}
+
+
+
+@keyframes navLinksFade{
+     from{
+          opacity: 0;
+          transform: translateX(50px);
+     }
+     to{
+          opacity: 1;
+          transform: translateX(0px);
+     }
+}
+
+.nav-active{
+     transform: translateX(0px);
+}
+.toggle-burger .line1{
+     transform: rotate(-45deg) translate(-3px, 7px);
+}
+.toggle-burger .line2{
+     opacity: 0;
+}
+.toggle-burger .line3{
+     transform: rotate(45deg) translate(-2px, -8px);
+     
 }
