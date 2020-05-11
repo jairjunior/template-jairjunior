@@ -3,3 +3,32 @@
      margin: 0px;
      box-sizing: border-box;
 }
+body{
+     background: rgb(135,81,22);
+     background: linear-gradient(180deg, rgba(135,81,22,1) 0%, rgba(52,36,40,1) 100%);
+}
+.flex{
+     display: flex;
+}
+.wrap{
+     flex-wrap: wrap;
+}
+.space-around{
+     justify-content: space-around;
+}
+.space-between{
+     justify-content: space-between;
+}
+.container{
+     height: 87vh;
+}
+.main-header{
+     text-align: center;
+     height: 50vh;
+}
+.main-footer{
+     background: #121212;
+     color: white;
+     padding: 20px;
+     text-align: center;
+}

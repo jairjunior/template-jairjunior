@@ -1,0 +1,38 @@
+.topnavbar{
+     background-color: #121212;
+     height: 8vh;
+}
+.topnavbar-container{
+     width: 70%;
+     height: 100%;
+     margin: 0px auto;
+     align-items: center;
+}
+.brand{
+     color: white;
+     font-size: 15px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     align-items: baseline;
+}
+.brand > h1{
+     font-size: 35px;
+}
+.brand > h4{
+     margin-left: 5px;
+}
+.desktopnav{
+     width: 55%;
+}
+.navlinks > li{
+     list-style: none;
+}
+.navlink > a{
+     text-decoration: none;
+     color: white;
+     font-family: sans-serif;
+     font-size: 15px;
+     font-weight: 700;
+     letter-spacing: 3px;
+     padding: 10px;
+     border-radius: 5px;
+}
