@@ -21,7 +21,7 @@ const navSlide = function(){
           });
 
           // Change the button burger into a "X" for close navbar
-
+          burger.classList.toggle('toggle-burger');
      })
 };
 

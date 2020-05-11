@@ -1,6 +1,6 @@
 .webdev{
      height: 40vh;
-     padding: 0px 200px;
+     padding: 0px 20px;
 }
 .webdev > header{
      text-align: justify;
@@ -17,7 +17,15 @@
      line-height: 45px;
 }
 .webdev-img{
-     width: 400px;
+     width: 600px;
      height: 400px;
      background-color: lightgreen;
+     padding-left: 20px;
+}
+
+
+@media screen and (max-width: 900px) {
+     .webdev > header{
+          width: 90%;
+     }
 }
