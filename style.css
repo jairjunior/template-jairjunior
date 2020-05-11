@@ -6,6 +6,7 @@
 body{
      background: rgb(135,81,22);
      background: linear-gradient(180deg, rgba(135,81,22,1) 0%, rgba(52,36,40,1) 100%);
+     font-family: open-serif;
 }
 .flex{
      display: flex;
@@ -13,18 +14,43 @@ body{
 .wrap{
      flex-wrap: wrap;
 }
+.flex-column{
+     flex-direction: column;
+}
+.justify-center{
+     justify-content: center;
+}
 .space-around{
      justify-content: space-around;
 }
 .space-between{
      justify-content: space-between;
 }
+
+
+
 .container{
      height: 87vh;
 }
 .main-header{
+     background-image: url("./img/Chacaltaya.jpeg");
+     background-repeat: no-repeat;
+     background-position-y: -210px;
+     background-size: cover;
      text-align: center;
-     height: 50vh;
+     height: 76vh;
+     background-color: teal;
+     color: white;
+}
+.main-header > h1{
+     font-family: rexlia;
+     font-size: 70px;
+     margin-bottom: 30px;
+}
+.main-header > p{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 25px;
+     font-style: italic;
 }
 .main-footer{
      background: #121212;

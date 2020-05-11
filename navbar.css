@@ -1,6 +1,8 @@
 .topnavbar{
      background-color: #121212;
      height: 8vh;
+     position: sticky;
+     top: 0px;
 }
 .topnavbar-container{
      width: 70%;

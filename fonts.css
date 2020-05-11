@@ -1,0 +1,17 @@
+@font-face {
+     font-family: rexlia;
+     src:  url('fonts/rexlia/rexlia.ttf') format('truetype');
+           font-weight: normal;
+           font-style: normal;
+}
+@font-face {
+     font-family: open-serif;
+     src:  url('fonts/open_serif/OpenSerif-Book.ttf') format('truetype');
+           font-weight: normal;
+           font-style: normal;
+}
+/*Font Muli*/
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@200;400;500;700;900&display=swap');
+
+/*Font Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@200;400;500;700;900&family=Roboto:wght@300;400;500;700;900&display=swap');
