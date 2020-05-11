@@ -23,7 +23,7 @@
      margin-left: 5px;
 }
 .desktopnav{
-     width: 55%;
+     width: 60%;
 }
 .navlinks > li{
      list-style: none;
@@ -37,4 +37,53 @@
      letter-spacing: 3px;
      padding: 10px;
      border-radius: 5px;
+}
+.navlink > a:hover{
+     background-color: rgba(172, 255, 47, 0.623);
+}
+
+
+.burger-button{
+     display: none;
+}
+.burger-button div{
+     width: 23px;
+     height: 3px;
+     background-color: rgb(240, 236, 240);
+     margin: 4px;
+     border-radius: 5px;
+     transition: all 0.3s ease;
+}
+
+
+@media screen and (max-width: 1200px) {
+     .desktopnav{
+          width: 80%;
+     }
+}
+
+@media screen and (max-width: 900px) {
+     body{
+          overflow-x: hidden;
+     }
+     .burger-button{
+          display: block;
+          cursor: pointer;
+     }
+     .navlinks{
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          right: 0px;
+          top: 8vh;
+          height: 92vh;
+          background-color: #121212;
+          width: 50%;
+          text-align: center;
+          justify-content: space-around;
+          transform: translateX(100%);
+     }
+     .navlink > a{
+          padding: 20px 40px;
+     }
 }

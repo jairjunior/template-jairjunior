@@ -1,0 +1,19 @@
+.popular-posts{
+     width: 70%;
+     margin: 0px auto;
+}
+.popular-posts > header > h1{
+     font-size: 60px;
+}
+.postcard{
+     width: 320px;
+     height: 300px;
+     padding: 10px 0px;
+     background-color: lightgray;
+}
+.postcard > img{
+     width: 150px;
+     height: 200px;
+     background-color: orangered;
+     border: 1px solid black;
+}

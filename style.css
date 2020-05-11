@@ -4,7 +4,9 @@
      box-sizing: border-box;
 }
 body{
-     font-family: 'Lora', serif;
+     background: rgb(135,81,22);
+     background: linear-gradient(180deg, rgba(135,81,22,1) 0%, rgba(52,36,40,1) 100%);
+     font-family: open-serif;
 }
 .flex{
      display: flex;
@@ -26,42 +28,24 @@ body{
 }
 
 
-
 .container{
      height: 87vh;
 }
 .main-header{
-     background: rgb(18,30,61);
-     background: linear-gradient(180deg, rgba(18,30,61,1) 0%, rgba(33,44,58,1) 100%);
      text-align: center;
-     height: 25vh;
+     height: 40vh;
+     background-color: orange;
      color: white;
-     margin-bottom: 60px;
 }
 .main-header > h1{
      font-family: rexlia;
-     font-size: 60px;
-     margin-bottom: 20px;
-}
-.main-header > p{
-     font-family: Georgia, 'Times New Roman', Times, serif;
-     font-size: 22px;
-     font-style: italic;
-}
-
-
-section{
-     margin-bottom: 130px;
-}
-section > header{
-     text-align: center;
+     font-size: 70px;
      margin-bottom: 30px;
 }
-section > header > h1{
-     font-family: 'Muli', sans-serif;
-}
-section > header > p{
-     
+.main-header > p{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 25px;
+     font-style: italic;
 }
 
 
